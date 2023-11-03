@@ -64,7 +64,7 @@ def delete_task():
         print("Tasks:")
         for i in range(len(tasks)):
             print(tasks[i])
-        choice = int(input("Enter the task number to delete: ")
+        choice = int(input("Enter the task number to delete: "))
 
         if 0 < choice <= len(tasks):
             del tasks[choice - 1]
